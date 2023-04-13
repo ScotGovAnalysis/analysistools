@@ -1,0 +1,20 @@
+Package: analysistools
+Title: Tools for Analysing Survey Data
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Maike",
+           family = "Waldmann",
+           role = c("aut", "cre"),
+           email = "maike.waldmann@gov.scot")
+Description: This package helps cleaning and analysing survey data.
+License: CC0
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
+Imports:
+    Hmisc,
+    utils,
+    zip
+Suggests: 
+    testthat (>= 2.1.0)
